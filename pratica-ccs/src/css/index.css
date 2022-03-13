@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Mulish:wght@200;400&family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    padding: 0;
+}
+
+section{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+a.title{
+    color: rgb(0, 69, 188) !important;
+    margin-right: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+a.nav-link{
+    color: rgb(125, 135, 152);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-nav{
+    background-color: rgb(0, 69, 188) !important ;
+    color: white !important;
+    border-radius: 3px !important;
+    border: 0;
+    height: 35px;
+    width: 110px;
+    box-shadow: 3px 2px 7px 2px #00000045;
+}
+
+
+.title{
+    font-weight: 500;
+    margin-left: 100px;
+}
+.col-md-12, .col-md-6{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.column-photo{
+    height: 900px;
+    
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.column-photo-contact{
+    height: 100%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.column-photo-left{
+    height: 300px;
+    background-position-x: inherit;
+    background-repeat: no-repeat;
+}
+
+.all-image{
+    height: 100% !important;
+}
+
+.menu{
+    background-color: rgba(255, 255, 255, 0.68) !important;
+    justify-content: space-evenly !important;
+}
+
+.information{
+    padding: 25% 25% 0 15%;
+}
+
+.information-contact{
+    padding: 1% 0 0 15%;
+    margin-bottom: 50px;
+}
+
+.preparations{
+    padding: 20% 15% 0 5%;
+}
+.title-information{
+    font-family: 'Roboto';
+    font-size: 50px !important;
+    color: rgb(32, 63, 113);
+    font-weight: bold;
+    word-break: break-word;
+    width: 320px;
+}
+
+.subtitle-information{
+    font-family: 'Roboto';
+    font-size: 28px !important;
+    color: rgb(32, 63, 113);
+    font-weight: bold;
+    word-break: break-word;
+}
+
+.description{
+    color: rgb(125, 135, 152);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    word-break: break-word;
+    width: 320px;
+}
+
+.description-contact{
+    color: rgb(125, 135, 152);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    word-break: break-word;
+    width: 400px;
+}
+.description-prep{
+    color: rgb(125, 135, 152);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    word-break: break-word;
+    padding-right: 101px !important;
+    margin-bottom: 50px !important;
+}
+.icons-row{
+    margin-top: 15px !important;
+    color: rgb(32, 63, 113);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.icon-custom{
+    color:  rgb(249, 218, 66);
+    background-color: rgb(255, 252, 244)
+}
+
+.schedule{
+    margin-top: 150px !important;
+}
+.icon-schedule{
+    padding: 0 !important;
+}
+.icon-clock{
+    font-size: 10px;
+    color: rgb(0, 69, 188) !important ;
+    background-color: rgb(231, 236, 254);
+    height: 20px;
+    width: 15px;
+    padding-top: 2px !important;
+    padding-left: 2px !important;
+    margin: 8px 0 0 5px !important;}
+
+.span-icon{
+    padding-top: 5px;
+    color: rgb(32, 63, 113);
+    font-weight: bold;
+    padding-left: 5px !important;
+
+}
+
+.card-info {
+    transform: translate(10px, -280%);
+    z-index: 1000;
+    height: 100px;
+    margin-left: 12% !important;
+    padding: 25px !important;
+    position: absolute !important;
+    border: 0 !important;
+    box-shadow: 0px 7px 7px 0 #00000045;
+    background-color: rgba(255, 255, 255, 0.94) !important;
+
+
+}
+
+.card.card-info {
+    display: flex;
+    flex-direction: unset;
+}
+.data-headers{
+    font-size: 13px !important;
+}
+.data{
+    color: rgb(32, 63, 113);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.data-vaccination{
+    padding-left: 22px !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+.vaccine{
+    padding-left: 30px !important;
+}
+
+.icon-schedule{
+    color: rgb(0, 69, 188) !important ;
+    background-color: rgb(231, 236, 254);
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    padding: 4px !important;
+    border: none;
+}
+
+.button-submit{
+    height: 40px;
+}
+.content-footer{
+    justify-content: space-between;
+}
+.footer-class{
+    justify-content: space-between;
+    align-content: center;
+}
+
+.brand-vaccine{
+    width: 150px;
+    height: 180px;
+}
+
+.card-header{
+    background-color: white !important;
+    border-radius: 6px !important;
+    border: gray;
+}
+
+.collapse.card-body{
+    border-radius: 6px !important;
+}
+.card-accordion{
+    border: none !important;
+}
+.icon-collapse{
+    align-self: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: rgb(0, 69, 188) !important ;
+    background-color: rgb(231, 236, 254);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn-link{
+    padding: 0 !important;
+}
+.title-collapse{
+    color: rgb(32, 63, 113) !important;
+    font-weight: bolder !important;
+    font-size: 15px !important;
+}
+
+.collapse.show {
+    box-shadow: 10px 8px 17px 8px #00000045;
+    border-radius: 6px;
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 100% !important;
+    }
+}   
+@media (min-width:768px){
+    .container {
+        max-width: 100% !important
+    }
+}
+
+.contacto-card{
+    border-color: #0000001d !important;
+    border-width: 2.5px !important;
+    padding-top: 10%;
+    width: 90%;
+}
+.contacto-card:hover{
+    box-shadow: 3px 2px 7px 2px #00000045;
+    border: none !important;
+}
+h6.card-subtitle.mb-2.text-muted {
+    font-size: 14px;
+}
+
+
+.contact-body-card{
+    padding: 10px 0 0 15px !important;
+    margin: 0 0 0 9px !important;
+}
+.icon-contact {
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    justify-content: center;
+    margin: 50%;
+    color: rgb(0, 69, 188) !important ;
+    background-color: rgb(231, 236, 254);
+    border-radius: 6px;
+    padding: 40% 40% 40% 55%;}
+
+.button-contact{
+    width: 220px;
+    height: 50px;
+    font-weight: bold !important;
+    font-size: 15px;
+    color: rgb(0, 69, 188) !important ;
+    background-color: rgb(231, 236, 254) !important;
+    margin: 10%;
+}
+
+.button-contact:hover{
+    background-color: rgb(0, 69, 188) !important;
+    color: white !important;
+}
+
+.row-contact{
+    margin: 10px 0 10px 0 !important;
+}
+
+.footer-vaccination{
+    height: 250px;
+    background-color: rgb(231, 236, 254) !important;
+    padding: 50px 0 0 150px;
+}
+
+.vaccination-title{
+    color: rgb(0, 69, 188) !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.credits{
+    margin-top: 80px;
+}
+.credits-options{
+    margin-top: 30px;
+    text-align: end;
+}
+
+.footer-options{
+    color: rgb(32, 63, 113) !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.description-options{
+    margin-top: 10px;
+}
